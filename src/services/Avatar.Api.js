@@ -1,0 +1,30 @@
+
+   
+export const getCharacters = async () => {
+    try {
+      const res = await fetch(
+        'https://last-airbender-api.herokuapp.com/api/v1/characters?perPage=20&page=1'
+      );
+      const { results } = await res.json();
+      return {
+        characters: results.map((character) => ({
+          photo: character.photoUrl,
+          name: character.name,
+        }))
+      };
+    } catch (error) {
+      console.error(error.message);
+      return [];
+    }
+  };
+  
+  export const getCharacter = async (id) => {
+    try {
+      const res = await fetch(`https://last-airbender-api.herokuapp.com/api/v1/characters/${id}`);
+      const character = await res.json();
+      return character;
+    } catch (error) {
+      console.error(error.message);
+      return {};
+    }
+  };
