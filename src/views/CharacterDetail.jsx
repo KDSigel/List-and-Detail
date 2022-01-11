@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Character from '../components/Character'
-import { getCharacter } from '../services/Avatar.Api'
+import { getCharacter } from '../services/AvatarApi'
 
 export default function CharacterDetail() {
 

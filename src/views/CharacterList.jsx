@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import ListOfCharacters from '../components/ListOfCharacters';
-import { getCharacters } from '../services/Avatar.Api';
+import { getCharacters } from '../services/AvatarApi';
 
 export default function CharacterList() {
   const [characters, setCharacters] = useState([]);
