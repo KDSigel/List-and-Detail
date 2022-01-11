@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests that the header shows up 1`] = `
+<div>
+  <div>
+    <a
+      href="/"
+    >
+      character list
+    </a>
+  </div>
+</div>
+`;
