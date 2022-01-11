@@ -4,7 +4,7 @@ export default function ListOfCharacters({characters}) {
     return (
         <ul>
             {characters.map((character) => (
-                <li>
+                <li key={character._id}>
                     <Link to={`/character/${character._id}`}>
                     <img src={character.photoUrl} alt={character.name} width="200" />
                     <div>name: {character.name}</div>
