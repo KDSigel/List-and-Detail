@@ -1,9 +1,11 @@
-import React from 'react'
+export default function Character({character}) {
 
-export default function Character() {
     return (
-        <div>
-            this has the photoUrl, name, position, and allies
-        </div>
+        <>
+            <img src={character.photoUrl} alt={character.name} width="500" />
+            <div>name: {character.name}</div>
+            <div>position: {character.position}</div>
+            <div>allies: {character.allies}</div>
+        </>
     )
 }

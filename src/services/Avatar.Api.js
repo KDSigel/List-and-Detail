@@ -20,8 +20,8 @@ export const getCharacters = async () => {
   
   export const getCharacter = async (id) => {
     try {
-      const res = await fetch(`https://last-airbender-api.herokuapp.com/api/v1/characters/${id}`);
-      const character = await res.json();
+      const response = await fetch(`https://last-airbender-api.herokuapp.com/api/v1/characters/${id}`);
+      const character = await response.json();
       return character;
     } catch (error) {
       console.error(error.message);
