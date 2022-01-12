@@ -1,0 +1,37 @@
+html, body {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../src/assets/images/sunset.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  a, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  li {
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-end;
+      margin: 2rem;
+      padding: .3rem;
+      border: white 2px solid;
+      border-radius: 3%;
+      background-color: rgba(255, 255, 255, .3);
+      text-align:end;
+  }
+
+  img {
+      border-radius: 3%;
+      filter: sepia(100%)
+  }
