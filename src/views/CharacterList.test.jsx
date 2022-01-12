@@ -70,6 +70,6 @@ render(
 )
 
 screen.getByText('loading stuff 4 you')
-await screen.findByText('name: 46th Earth King')
+await screen.findByText('46th Earth King')
 })
 })

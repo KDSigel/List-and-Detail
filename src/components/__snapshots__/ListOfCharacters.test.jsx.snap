@@ -13,7 +13,6 @@ exports[`tests a snapshot of Characters component 1`] = `
           width="200"
         />
         <div>
-          name: 
           karl
         </div>
       </a>
