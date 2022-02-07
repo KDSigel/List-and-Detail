@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests a snapshot of Character component 1`] = `
+<div>
+  <img
+    alt="karl"
+    src="https://en.wikipedia.org/wiki/Vasily_Arkhipov#/media/File:Vasili_Arkhipov_young.jpg"
+    width="300"
+  />
+  <div>
+    name: 
+    karl
+  </div>
+  <div>
+    position: 
+    driver
+  </div>
+  <div>
+    allies: 
+    cohort
+  </div>
+</div>
+`;
